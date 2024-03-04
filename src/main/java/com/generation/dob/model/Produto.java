@@ -31,11 +31,11 @@ public class Produto {
 	private float preco;
 	
 	@ManyToOne
-	@JsonIgnoreProperties("categoria")
+	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
 	
 	@ManyToOne
-	@JsonIgnoreProperties("categoria")
+	@JsonIgnoreProperties("produto")
 	private Usuario usuario;
 	
 	@Size(min = 5, max = 255, message = "")
