@@ -29,9 +29,11 @@ public class Produto {
 	private float preco;
 	
 	@ManyToOne
+	@JsonIgnoreProperties("categoria")
 	private Categoria categoria;
 	
 	@ManyToOne
+	@JsonIgnoreProperties("categoria")
 	private Usuario usuario;
 	
 	@Size(min = 5, max = 255, message = "")
