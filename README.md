@@ -2,7 +2,7 @@
 
 ### Integrantes
 - Eduardo Freitas do Nascimento Filho
-- Gustavo Henrique Almeida
+- Gustavo Karl Almeida
 - Leticia Santana Rocha
 - Vitória Helena Valadão
 - Débora Sampaio
